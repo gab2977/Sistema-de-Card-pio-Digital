@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabor & Arte - Burgueria & Café</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 1. Cabeçalho -->
+    <header>
+        <div class="header-container">
+            <div class="logo-area">
+                <span class="logo-icone">🍔☕</span>
+                <div>
+                    <h1>Sabor & Arte</h1>
+                    <p class="slogan">O melhor sabor da cidade em cada detalhe!</p>
+                </div>
+            </div>
+            
+            <!-- Menu de Navegação -->
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#cardapio">Cardápio</a></li>
+                    <li><a href="#promocoes">Promoções</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#carrinho">Carrinho</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 2. Banner Principal -->
+    <section id="inicio" class="banner">
+        <div class="banner-conteudo">
+            <h2>O melhor sabor da cidade está aqui!</h2>
+            <p>Ingredientes artesanais, cafés selecionados e receitas exclusivas para você.</p>
+            <a href="#cardapio" class="btn btn-banner">Ver Cardápio Digital</a>
+        </div>
+    </section>
+
+    <main>
+        <!-- 3. Seção de Promoções -->
+        <section id="promocoes" class="secao">
+            <h2>🔥 Promoções Imperdíveis</h2>
+            <div class="grid-produtos">
+                <div class="card-produto destaque">
+                    <span class="tag-promo">20% OFF</span>
+                    <img src="https://via.placeholder.com/300x200" alt="Combo Sabor Supremo">
+                    <div class="card-body">
+                        <h3>Combo Sabor Supremo</h3>
+                        <p>Hambúrguer artesanal 180g + Porção de Batata Rustica + Refrigerante Lacre 350ml.</p>
+                        <span class="preco-antigo">R$ 48,90</span>
+                        <span class="preco">R$ 38,90</span>
+                        <button class="btn btn-comprar">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+
+                <div class="card-produto destaque">
+                    <span class="tag-promo">Leve 2 Pague 1</span>
+                    <img src="https://via.placeholder.com/300x200" alt="Dupla Cappuccino Gelado">
+                    <div class="card-body">
+                        <h3>Dupla Cappuccino Especial</h3>
+                        <p>Dois cappuccinos cremosos acompanhados de chantilly e calda de chocolate belga.</p>
+                        <span class="preco-antigo">R$ 32,00</span>
+                        <span class="preco">R$ 16,00</span>
+                        <button class="btn btn-comprar">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. Cardápio Digital / Categorias -->
+        <section id="cardapio" class="secao">
+            <h2>🍔 Nosso Cardápio</h2>
+
+            <!-- Categoria 1: Hambúrgueres -->
+            <h3 class="categoria-titulo">🍔 Hambúrgueres Artesanais</h3>
+            <div class="grid-produtos">
+                <div class="card-produto">
+                    <img src="https://via.placeholder.com/300x200" alt="X-Bacon Artesanal">
+                    <div class="card-body">
+                        <h3>X-Bacon Supremo</h3>
+                        <p>Pão brioche, hambúrguer 180g, queijo cheddar, bacon crocante e molho especial da casa.</p>
+                        <span class="preco">R$ 32,90</span>
+                        <button class="btn btn-comprar">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+                <div class="card-produto">
+                    <img src="https://via.placeholder.com/300x200" alt="Burguer Duplo">
+                    <div class="card-body">
+                        <h3>Duplo Monster</h3>
+                        <p>Dois hambúrgueres 150g, duplo cheddar, picles artesanal e maionese defumada no pão australiano.</p>
+                        <span class="preco">R$ 38,50</span>
+                        <button class="btn btn-comprar">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+                <div class="card-produto">
+                    <img src="https://via.placeholder.com/300x200" alt="Burguer Veggie">
+                    <div class="card-body">
+                        <h3>Veggie Sabor</h3>
+                        <p>Hambúrguer de grão-de-bico, queijo prato, alface, tomate fresco e maionese de ervas no pão de gergelim.</p>
+                        <span class="preco">R$ 29,90</span>
+                        <button class="btn btn-comprar">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Categoria 2: Porções -->
+            <h3 class="categoria-titulo">🍟 Porções</h3>
+            <div class="grid-produtos">
+                <div class="card-produto">
+                    <img src="https://via.placeholder.com/300x200" alt="Batata Rustica">
+                    <div class="card-body">
+                        <h3>Batata Rústica</h3>
+                        <p>Porção de batatas rústicas frita com alho, alecrim fresco e molho de cheddar com bacon.</p>
+                        <span class="preco">R$ 24,00</span>
+                        <button class="btn btn-comprar">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+                <div class="card-produto">
+                    <img src="https://via.placeholder.com/300x200" alt="Onion Rings">
+                    <div class="card-body">
+                        <h3>Anéis de Cebola</h3>
+                        <p>Cebolas empanadas e crocantes, acompanhadas do nosso famoso molho barbecue da casa.</p>
+                        <span class="preco">R$ 22,00</span>
+                        <button class="btn btn-comprar">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+                <div class="card-produto">
+                    <img src="https://via.placeholder.com/300x200" alt="Nuggets Artesanais">
+                    <div class="card-body">
+                        <h3>Chicken Crispy</h3>
+                        <p>Tiras de frango empanadas com casquinha de panko ultra crocante e molho mostarda e mel.</p>
+                        <span class="preco">R$ 26,90</span>
+                        <button class="btn btn-comprar">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Categoria 3: Bebidas -->
+            <h3 class="categoria-titulo">🥤 Bebidas & Cafés</h3>
+            <div class="grid-produtos">
+                <div class="card-produto">
+                    <img src="https://via.placeholder.com/300x200" alt="Espresso Gourmet">
+                    <div class="card-body">
+                        <h3>Café Espresso Gourmet</h3>
+                        <p>Grãos 100% arábica selecionados de origem controlada, extraídos na hora.</p>
+                        <span class="preco">R$ 8,50</span>
+                        <button class="btn btn-comprar">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+                <div class="card-produto">
+                    <img src="https://via.placeholder.com/300x200" alt="Soda Italiana">
+                    <div class="card-body">
+                        <h3>Soda Italiana de Maçã Verde</h3>
+                        <p>Bebida refrescante gaseificada com xarope artesanal e fatias de fruta natural.</p>
+                        <span class="preco">R$ 14,00</span>
+                        <button class="btn btn-comprar">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+                <div class="card-produto">
+                    <img src="https://via.placeholder.com/300x200" alt="Milkshake de Chocolate">
+                    <div class="card-body">
+                        <h3>Milkshake Belga 500ml</h3>
+                        <p>Sorvete artesanal de baunilha, calda de chocolate belga concentrada e chantilly de café.</p>
+                        <span class="preco">R$ 21,90</span>
+                        <button class="btn btn-comprar">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Categoria 4: Sobremesas -->
+            <h3 class="categoria-titulo">🍰 Sobremesas</h3>
+            <div class="grid-produtos">
+                <div class="card-produto">
+                    <img src="https://via.placeholder.com/300x200" alt="Torta de Limão">
+                    <div class="card-body">
+                        <h3>Torta de Limão Siciliano</h3>
+                        <p>Massa crocante de biscoito, creme suave de limão e cobertura de merengue maçaricado.</p>
+                        <span class="preco">R$ 16,90</span>
+                        <button class="btn btn-comprar">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+                <div class="card-produto">
+                    <img src="https://via.placeholder.com/300x200" alt="Brownie com Sorvete">
+                    <div class="card-body">
+                        <h3>Brownie Quente com Gelato</h3>
+                        <p>Brownie intenso de chocolate 70%, servido quente com uma bola de gelato de baunilha.</p>
+                        <span class="preco">R$ 19,50</span>
+                        <button class="btn btn-comprar">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+                <div class="card-produto">
+                    <img src="https://via.placeholder.com/300x200" alt="Cheesecake de Frutas Vermelhas">
+                    <div class="card-body">
+                        <h3>Cheesecake de Frutas Vermelhas</h3>
+                        <p>Tradicional receita nova-iorquina com calda artesanal de morango, amora e mirtilo.</p>
+                        <span class="preco">R$ 18,00</span>
+                        <button class="btn btn-comprar">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. Carrinho Simulado -->
+        <section id="carrinho" class="secao carrinho-secao">
+            <h2>🛒 Meu Carrinho de Compras</h2>
+            <div class="carrinho-box">
+                <ul class="carrinho-itens">
+                    <li>
+                        <span>1x X-Bacon Supremo</span>
+                        <strong>R$ 32,90</strong>
+                    </li>
+                    <li>
+                        <span>1x Batata Rústica</span>
+                        <strong>R$ 24,00</strong>
+                    </li>
+                    <li>
+                        <span>1x Soda Italiana de Maçã Verde</span>
+                        <strong>R$ 14,00</strong>
+                    </li>
+                </ul>
+                <div class="carrinho-resumo">
+                    <p>Subtotal: <span>R$ 70,90</span></p>
+                    <p>Taxa de Entrega: <span>R$ 5,00</span></p>
+                    <h3>Total: <span>R$ 75,90</span></h3>
+                    <button class="btn btn-finalizar">Finalizar Pedido (Simulação)</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. Sobre o Restaurante -->
+        <section id="sobre" class="secao">
+            <h2>📖 Nossa História</h2>
+            <div class="texto-sobre">
+                <p>O Sabor & Arte nasceu da paixão compartilhada por dois amigos apaixonados por gastronomia artesanal e cafés de alta qualidade.</p>
+                <p>Fundado em 2020, o estabelecimento iniciou suas atividades com o objetivo simples de revolucionar o conceito de fast-food local.</p>
+                <p>Nossa missão principal é proporcionar uma experiência sensorial única, unindo receitas exclusivas com um atendimento caloroso e humano.</p>
+                <p>Priorizamos o uso de ingredientes locais, carnes selecionadas diariamente e pães frescos assados todas as manhãs em nossa própria cozinha.</p>
+                <p>Nosso diferencial está no cuidado minucioso com a preparação dos insumos: nossas maioneses e molhos são 100% caseiros e livres de conservantes.</p>
+                <p>Além disso, contamos com uma curadoria especial de grãos de café de produtores sustentáveis do interior do país.</p>
+                <p>Acreditamos que uma refeição deve ser mais do que apenas nutrição; é um momento de pausa, conversa e celebração entre amigos e família.</p>
+                <p>Ambiente moderno, aconchegante e totalmente climatizado para que você se sinta sempre em casa durante sua visita.</p>
+                <p>Possuímos também opções vegetarianas cuidadosamente planejadas para atender a todos os paladares com o mesmo padrão de excelência.</p>
+                <p>Venha nos visitar ou faça seu pedido online para vivenciar a verdadeira união entre praticidade, inovação e sabor irresistível.</p>
+            </div>
+        </section>
+
+        <!-- 7. Área de Contato e Formulário -->
+        <section id="contato" class="secao">
+            <h2>📞 Fale Conosco & Localização</h2>
+            <div class="grid-contato">
+                <div class="info-contato">
+                    <h3>Informações de Atendimento</h3>
+                    <p>📍 <strong>Endereço:</strong> Av. Gastronômica, nº 1000 - Centro</p>
+                    <p>📞 <strong>Telefone:</strong> (41) 3333-4444</p>
+                    <p>📱 <strong>WhatsApp:</strong> (41) 98888-7777</p>
+                    <p>✉️ <strong>E-mail:</strong> contato@saborearte.com.br</p>
+                    
+                    <h3 class="horario-titulo">🕒 Horário de Funcionamento</h3>
+                    <p>Terça a Quinta: 17h00 às 23h00</p>
+                    <p>Sexta a Domingo: 17h00 às 00h00</p>
+                    <p><em>Segunda-feira: Fechado para descanso da equipe.</em></p>
+                </div>
+
+                <!-- Formulário de Mensagem -->
+                <form class="form-contato" onsubmit="event.preventDefault(); alert('Mensagem enviada com sucesso!');">
+                    <h3>Envie uma Mensagem</h3>
+                    <div class="campo">
+                        <label for="nome">Nome Completo:</label>
+                        <input type="text" id="nome" placeholder="Digite seu nome" required>
+                    </div>
+
+                    <div class="campo">
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" placeholder="seuemail@exemplo.com" required>
+                    </div>
+
+                    <div class="campo">
+                        <label for="telefone">Telefone / WhatsApp:</label>
+                        <input type="tel" id="telefone" placeholder="(41) 99999-8888" required>
+                    </div>
+
+                    <div class="campo">
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea id="mensagem" rows="4" placeholder="Escreva sua mensagem ou dúvida..." required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-enviar">Enviar Mensagem</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- 8. Rodapé -->
+    <footer>
+        <div class="footer-conteudo">
+            <div>
+                <h3>Sabor & Arte</h3>
+                <p>Cardápio Digital Oficial</p>
+            </div>
+            <div>
+                <p><strong>Desenvolvido por:</strong> Nome do Aluno</p>
+                <p>Turma: 3º Ano | Disciplina: Desenvolvimento Web | 2026</p>
+            </div>
+            <div class="redes-sociais">
+                <a href="#">📱 Instagram</a>
+                <a href="#">👍 Facebook</a>
+                <a href="#">💬 WhatsApp</a>
+            </div>
+        </div>
+        <div class="footer-copy">
+            <p>© 2026 Sabor & Arte. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
